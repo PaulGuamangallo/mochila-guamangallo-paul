@@ -1,0 +1,53 @@
+    1  git version
+    2  git config --global user.name "Paul Guamangallo"
+    3  git config --global user.mail "pakun.gmll@gmail.com"
+    4  ls
+    5  ls -alh
+    6  pwd
+    7  dir
+    8  cd Documents/
+    9  mkdir bashDir
+   10  dir
+   11  cd bashDir/
+   12  mkdir Peliculas
+   13  mkdir -r Peliculas/
+   14  mkdir --r Peliculas/
+   15  -rm -r Peliculas/
+   16  rm -r Peliculas/
+   17  mkdir terror aventuras anime
+   18  ls
+   19  mkdir ciencia-ficcion
+   20  cd ciencia-ficcion/
+   21  touch avenger.txt
+   22  ls
+   23  cd ..
+   24  code .
+   25  code .
+   26  git init
+   27  mkdir Entrega1 Entrega2 Entrega3 Entrega4 Entrega5 Git-Github
+   28  touch README.md
+   29  cp README.md Entrega1/ Entrega2/ Entrega3/ Entrega4/ Entrega5/ Git-Github/
+   30  cp -r README.md Entrega1/ Entrega2/ Entrega3/ Entrega4/ Entrega5/ Git-Github/
+   31  cp -r README.md Entrega1/
+   32  cp -r README.md Entrega2/
+   33  cp -r README.md Entrega3/
+   34  cp -r README.md Entrega4/
+   35  cp -r README.md Entrega5/
+   36  cp -r README.md Git-Github/
+   37  rm README.md 
+   38  git status
+   39  git add .
+   40  git commit -m "Primer commit"
+   41  git brach -M main
+   42  git branch -M main
+   43  git remote add origin https://github.com/PaulGuamangallo/mochila-guamangallo-paul.git
+   44  git remote -v
+   45  git push origin main
+   46  git branch trabajo-github
+   47  git checkout trabajo-github
+   48  ls
+   49  touch Git-Github/cheatsheet.txt
+   50  git add .
+   51  git commit -m "mk cheatsheet-commit->tg"
+   52  git push origin trabajo-github
+   53  history > registro-comandos.txt

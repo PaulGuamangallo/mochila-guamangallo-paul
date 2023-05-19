@@ -1,0 +1,15 @@
+git init                            iniciar git 
+git branch -M [name]                cambiar el nombre a la rama
+git config --global user.email      conf el mail del usuario 
+git config --global user.name       conf el nombre del usuario
+git add .                           pasar al stagging-area archivos untracked
+git status                          visualizar el estado archivos
+git commit -m "[comentario]"        comitear un archivo del stagging-area
+
+git remote add origin [URL-GITHUB]  vincular con un repositorio remoto
+git remote -v                       visualizar repositorios vinculados
+git pull origin [main/branch]       bajar el contenido/cambios del repositorio remoto
+git push origin [main/branch]       subir archivos/cambios al repositorio remoto
+
+git branch [nombre rama]            creacion de una nueva rama dentro del proyecto
+git checkout [branch]               cambiar de rama

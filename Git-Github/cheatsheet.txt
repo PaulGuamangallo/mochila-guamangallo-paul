@@ -5,6 +5,7 @@ git config --global user.name       conf el nombre del usuario
 git add .                           pasar al stagging-area archivos untracked
 git status                          visualizar el estado archivos
 git commit -m "[comentario]"        comitear un archivo del stagging-area
+git log --oneline                   ver commits hechos
 
 git remote add origin [URL-GITHUB]  vincular con un repositorio remoto
 git remote -v                       visualizar repositorios vinculados
@@ -13,3 +14,4 @@ git push origin [main/branch]       subir archivos/cambios al repositorio remoto
 
 git branch [nombre rama]            creacion de una nueva rama dentro del proyecto
 git checkout [branch]               cambiar de rama
+

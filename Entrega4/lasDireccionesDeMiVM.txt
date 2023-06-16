@@ -1,0 +1,12 @@
+ip publica
+10.0.2.15
+
+ip privada
+127.0.0.1
+
+dir MAC
+08:00:27:69:38:e3
+
+¿Es diferente la ip publica y la ip privada de nuestra maquina host?
+- la ip privada o interna de nuestra pc es diferente porque su asignacion es dinamica 
+- mientras  que las ip privadas seran las mismas porque estan conectados a la misma red WIFI

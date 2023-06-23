@@ -1,0 +1,12 @@
+Para conectarnos a traves del protocolo telned es necesario prepara nuestra maquina virtual o servidor linux
+        (es necesario conocer la dir ip de nuestra VM o server linux)
+        (tener en cuenta el user y contraseña)
+        intallar el paquete ssh (telned)
+        *Por defecto el servicio ya esta activo, si no es necesario activarlo a traves de comandos adjuntados en la doc$- Pc remoto
+        Es necesario habilitar el cliente telenet ya sea a graficamente o en linea de comandos cmd administrador
+
+Una ves completada la preparacion; ponemos el siguiente comando en cmd:
+        telnet [ip del servidor o VM]
+        *posteriormente nos pedira un usuario y contraseña
+Una vez verificado las credenciales ya estaremos dentro de nuestro server linux o VM y podremos acceder al shell de la $***
+
